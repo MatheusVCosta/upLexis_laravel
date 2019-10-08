@@ -24,7 +24,7 @@
 <ul>
     <li>
         <p>1° Passo:
-            <br>Execute o comando composer install para installar as dependências
+            <br>Execute o comando composer install para instalar as dependências
         </p>
         <img src="https://user-images.githubusercontent.com/38003078/66400611-2ffee900-e9b8-11e9-81d7-0d13a8be7bba.PNG">
     </li>
@@ -36,14 +36,14 @@
     </li>
     <li>
         <p>3° Passo:
-            <br>Criar um banco de dados chamado db_uplexis via linha de comando ou pela interface do workbench
+            <br>Crie um banco de dados chamado db_uplexis via linha de comando ou pela interface do workbench
             <br>Comando: CREATE DATABASE db_uplexis;
         </p>
         <img src="https://user-images.githubusercontent.com/38003078/66391614-f0c69d00-e9a3-11e9-892f-6f9aaa0fe6dd.PNG">
     </li>
     <li>
         <p>4° Passo:
-            <br>Abrir o prompt de comado na raiz do projeto e executar o comando que irá gerar as migrations no banco de             dados
+            <br>Abra o prompt de comado na raiz do projeto e executar o comando que irá gerar as migrations no banco de             dados
             <br>Comando: php artisan migrate;
         </p>
         <img src="https://user-images.githubusercontent.com/38003078/66392051-29b34180-e9a5-11e9-9c9a-ea63d6c852b7.PNG">
