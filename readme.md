@@ -18,7 +18,7 @@
 <p>Vá até o arquivo .env-example que está no diretório raiz da aplicação e renomeie para .env</p>
 <img src="https://user-images.githubusercontent.com/38003078/66393290-86fcc200-e9a8-11e9-853a-4380001638c0.PNG">
 <p>Após isso abra o arquivo</p>
-<img scr="https://user-images.githubusercontent.com/38003078/66393529-28841380-e9a9-11e9-8b39-a45b2a67e28b.PNG">
+<img src="https://user-images.githubusercontent.com/38003078/66393529-28841380-e9a9-11e9-8b39-a45b2a67e28b.PNG">
 <p>Edite as linhas que estão marcadas, colocando as informações do seu banco de dados</p>
 <ul>
     <li>
