@@ -20,15 +20,12 @@ class AdminController extends Controller
     {
         return view('admin.buscar');
     }
-
     public function salvarArtigo()
     {   
         if(Request::ajax()){
             $dados = Request::all();
             if(Article::create($dados)){
-                return "Sucesso";
-            }else{  
-                return "False";
+                return json_encode('Sucesso');
             }
         }
     }

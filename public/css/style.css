@@ -64,4 +64,11 @@ a, .text-orange{
 .box-search{
     border-radius: 15px;
 }
+
 /* FIM BUSCAR */
+
+.message{
+    margin-top:12px;
+    color:red;
+    text-align: center;
+}
