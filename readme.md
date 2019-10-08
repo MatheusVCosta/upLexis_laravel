@@ -27,7 +27,7 @@
             <br>Abrir o prompt de comado na raiz do projeto e executar o comando que irá gerar as migrations no banco de             dados
             <br>Comando: php artisan migrate;
         </p>
-        <img src="https://user-images.githubusercontent.com/38003078/66391614-f0c69d00-e9a3-11e9-892f-6f9aaa0fe6dd.PNG">
+        <img src="https://user-images.githubusercontent.com/38003078/66392051-29b34180-e9a5-11e9-9c9a-ea63d6c852b7.PNG">
     </li>
     <li>
         <p>3° Passo:
