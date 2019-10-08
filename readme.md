@@ -16,8 +16,10 @@
 
 <ul>
     <li>
-        <p>1° Passo:<br>
-           Criar um banco de dados chamado db_uplexis via linha de comando ou pela interface do workbenc</p>
+        <p>1° Passo:
+            <br>Criar um banco de dados chamado db_uplexis via linha de comando ou pela interface do workbench
+            <br>Comando: CREATE DATABASE db_uplexis;</p>
+            
     </li>
 </ul>
 
