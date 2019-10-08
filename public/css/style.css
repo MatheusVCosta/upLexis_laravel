@@ -1,0 +1,67 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+::-webkit-input-placeholder{
+    font-weight: bold;
+}
+table{
+    border: none;
+    border-radius: 10px;
+}
+.table thead th{
+    border: none;
+}
+span{
+    padding-top: 6px; 
+}
+.btn-custom {
+	padding: 1px 15px 3px 2px;
+	border-radius: 50px;
+}
+a, .text-orange{
+    color:#e86524 !important;
+}
+.bg-gray{
+    background-color: #efefef;
+}
+.full-height {
+    height: auto;
+    min-height: 100vh;
+}
+.bg-orange{
+    background-color: #e86524;
+}
+.background-button{
+    background-color: #e86524;
+    color:#ffffff;
+}
+.card-login{
+    width:420px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 20px 20px 0px 0px rgba(0,0,0,0.75);
+}
+@media screen and (max-width: 600px) {
+    .card-login{
+        width:100%;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+        margin-top: 100px;
+        background-color: #ffffff;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+}
+
+/* BUSCAR */
+.box-search{
+    border-radius: 15px;
+}
+/* FIM BUSCAR */
