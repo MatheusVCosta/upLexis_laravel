@@ -7,9 +7,12 @@
     <div class="container-fluid full-height bg-orange p-0">
         @include('layouts.includes.nav')
         <div class="container mt-5">
-            <h2 class=" text-white font-weight-bold" id="este">
+            <h2 class=" text-white font-weight-bold">
                 BUSCAR ARTIGOS
+                <img id="idLoanding" src="{{ asset('media/gif/Rolling-1.8s-200px.gif')}}" alt="loanding" class="loanding">
             </h2>  
+            
+
             <div class="row">
                 <span style="width:100%;border-top:3px solid #fff;"></span>
             </div> 
@@ -20,11 +23,13 @@
                     <div class="form-group mt-5">
                         <input class="form-control border-0 bg-gray" id="idBuscar" type="text" name="search" placeholder="Pesquisar">
                         <p id="aviso" class="message"></p>
+                        
                     </div>
                     <button type="button" onclick="buscar()" class="btn btn-lg  d-block mx-auto background-button p-2 pl-4 mt-2 mb-5">Buscar <img src=" {{ asset('media/icon/baseline_send_white_18dp.png')}}" alt=""></button>
                 </div>
             </div>
         </div>
+        
     </div>
     <div class="modal fade" id="modalSucesso" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -46,7 +51,6 @@
     </div>
     <script>
         var teste = 0;
-
         function buscar(){
             var aviso = $('#aviso').text('');
             let busca = $('#idBuscar').val();
@@ -58,7 +62,11 @@
             }else{
                 $.ajax({
                     url:`https://www.uplexis.com.br/blog/?s=${busca}`, 
+                    beforeSend:function(){
+                        $('#idLoanding').show()
+                    },
                     success:function(consulta){ 
+                        $('#idLoanding').hide()
                         consultaQtd = $(consulta).find('div .post').length;
                         if(consultaQtd == 0){
                             $(aviso).text(`Não foi encontrado nada com: ${busca}`)

@@ -12,14 +12,13 @@ class LoginController extends Controller
     {
         $dadosLogin = $request->all();
 
-        if(Auth::attempt(['email' => $dadosLogin['user'], 'password' => $dadosLogin['password']])){
+        if(Auth::attempt(['name' => $dadosLogin['user'], 'password' => $dadosLogin['password']])){
             return redirect()->route('admin.exibir');
         }
         else{
             return redirect()->route('home', 'false');
         }
     }
-
     public function logout()
     {
         Auth::logout();

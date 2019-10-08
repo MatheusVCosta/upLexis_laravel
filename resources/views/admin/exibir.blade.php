@@ -14,7 +14,7 @@
             </div> 
             <div class="row mt-5">
                 <div class="col-md-12 mx-auto">
-                    <table class="table table-light" >
+                    <table class="table table-light table-responsive-lg" >
                         <thead>
                             <tr>
                                 <th scope="col"></th>
@@ -30,8 +30,8 @@
                                 <tr>
                                     <th class="text-center">{{ $article->id_article}}</th>
                                     <td>{{ $article->titulo}}</td>
-                                    <td><a href="{{ $article->link}}" class="btn-uplexis orange">{{ $article->link}}</a></td>
-                                    <td>{{ $article->created_at }}</td>
+                                    <td><a target="_target" href="{{ $article->link}}" class="btn-uplexis orange">{{ $article->link}}</a></td>
+                                    <td>{{ date('d/m/Y', strtotime($article->created_at)) }}</td>
                                     <td class="text-center" ><a title="remover" href="{{ route('admin.deleteArtigo', $article->id_article) }}"><i style="font-size:2.5rem;" class="material-icons">close</i></a></td>
                                 </tr>
                                 @endforeach  

@@ -72,3 +72,11 @@ a, .text-orange{
     color:red;
     text-align: center;
 }
+.loanding{
+    width:70px;
+    height: 70px;
+    display: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

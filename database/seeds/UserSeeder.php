@@ -12,9 +12,6 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        // // Quando rodar o comando no terminal, vai apagar todos os dados da tabela
-        // Eloquent::unguard();
-
         // Criar usuários administradores
         $this->userAdmins();
     }
@@ -24,11 +21,16 @@ class UserSeeder extends Seeder
         // Método de criação do usuario
         User::create([
             'name' => 'admin',
-            'email' => 'admin@admin.com',
             'password' => bcrypt('admin')
         ]);
 
         $this->command->info('Usuário admin criado!');
 
+        User::create([
+            'name' => 'joao',
+            'password' => bcrypt('admin')
+        ]);
+
+        $this->command->info('Usuário joao criado!');
     }
 }
