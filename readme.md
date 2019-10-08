@@ -1,4 +1,5 @@
 <h1 align="center">Teste-upLexis</h1>
+<p align="center"><img src="https://user-images.githubusercontent.com/38003078/66393799-d98aae00-e9a9-11e9-8bdd-122119ae875e.png"></p>
 
 <h3>Sobre o teste</h3>
 <p>Aplicação desenvolvida em Laravel que faz a captura de artigos no blog da upLexis</p>
