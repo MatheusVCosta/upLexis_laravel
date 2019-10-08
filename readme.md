@@ -12,4 +12,13 @@
     <li>Bootstrap</li>
 </ul>
 
+<h3>Como executar a aplicação</h3>
+
+<ul>
+    <li>
+        <p>1° Passo:<br>
+           Criar um banco de dados chamado db_uplexis via linha de comando ou pela interface do workbenc</p>
+    </li>
+</ul>
+
 
